@@ -48,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseRepository\BaseRepository.cs" />
+    <Compile Include="BaseRepository\IBaseRepository.cs" />
     <Compile Include="Configurations\BaseEntityConfiguration.cs" />
     <Compile Include="Configurations\CustomerConfiguration.cs" />
     <Compile Include="Configurations\GenreConfiguration.cs" />
