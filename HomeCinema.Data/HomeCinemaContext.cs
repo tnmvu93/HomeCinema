@@ -25,6 +25,11 @@ namespace HomeCinema.Data
         public IDbSet<Error> Errors { get; set; }
         #endregion
 
+        public override int SaveChanges()
+        {
+            return base.SaveChanges();
+        }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();

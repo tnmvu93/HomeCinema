@@ -1,9 +1,10 @@
 ﻿using HomeCinema.Data.BaseRepository;
 using HomeCinema.Data.Entities;
 
-namespace HomeCinema.Service.IRepository
+namespace HomeCinema.Services.IRepository
 {
     public interface IUserRepository : IBaseRepository<User>
     {
+        User GetUserByUsername(string username);
     }
 }

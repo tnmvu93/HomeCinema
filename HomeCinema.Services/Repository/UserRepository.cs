@@ -1,7 +1,8 @@
 ﻿using HomeCinema.Data;
 using HomeCinema.Data.BaseRepository;
 using HomeCinema.Data.Entities;
-using HomeCinema.Service.IRepository;
+using HomeCinema.Services.IRepository;
+using System.Linq;
 
 namespace HomeCinema.Service.Repository
 {
@@ -14,6 +15,10 @@ namespace HomeCinema.Service.Repository
         #endregion
 
         #region methods
+        public User GetUserByUsername(string username)
+        {
+            return this.GetAll().FirstOrDefault(x => x.Username == username);
+        }
         #endregion
 
     }
