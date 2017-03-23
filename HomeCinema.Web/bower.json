@@ -1,3 +1,13 @@
 {
-	"name": "home-cinema"
+  "name": "home-cinema",
+  "dependencies": {
+    "angucomplete-alt": "^3.0.0",
+    "angular-base64": "^2.0.5",
+    "angular-file-upload": "^2.5.0",
+    "tg-angular-validator": "^1.2.9",
+    "bootstrap": "^3.3.7",
+    "raty": "^2.7.1",
+    "angular-loading-bar": "^0.9.0",
+    "angular-bootstrap": "^2.5.0"
+  }
 }
