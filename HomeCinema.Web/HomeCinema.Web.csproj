@@ -76,6 +76,10 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -85,6 +89,30 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
@@ -94,60 +122,60 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\css\blank.gif" />
-    <Content Include="Content\css\bootstrap-theme.css" />
-    <Content Include="Content\css\bootstrap.css" />
-    <Content Include="Content\css\fancybox_overlay.png" />
-    <Content Include="Content\css\fancybox_sprite.png" />
-    <Content Include="Content\css\font-awesome.css" />
-    <Content Include="Content\css\jquery.fancybox.css" />
-    <Content Include="Content\css\loading-bar.css" />
-    <Content Include="Content\css\morris.css" />
-    <Content Include="Content\css\site.css" />
-    <Content Include="Content\css\toastr.css" />
-    <Content Include="Content\fonts\fontawesome-webfont.svg" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\images\background.jpg" />
-    <Content Include="Content\images\movies\antman.jpg" />
-    <Content Include="Content\images\movies\background.jpg" />
-    <Content Include="Content\images\movies\batmanvssuperman.jpg" />
-    <Content Include="Content\images\movies\betafish.jpg" />
-    <Content Include="Content\images\movies\edgeoftomorrow.jpg" />
-    <Content Include="Content\images\movies\fantasticfour.jpg" />
-    <Content Include="Content\images\movies\home.jpg" />
-    <Content Include="Content\images\movies\insideout.jpg" />
-    <Content Include="Content\images\movies\jurassicworld.jpg" />
-    <Content Include="Content\images\movies\madmax.jpg" />
-    <Content Include="Content\images\movies\minions.jpg" />
-    <Content Include="Content\images\movies\southpaw.jpg" />
-    <Content Include="Content\images\movies\spectre.jpg" />
-    <Content Include="Content\images\movies\ted2.jpg" />
-    <Content Include="Content\images\movies\thelongestride.jpg" />
-    <Content Include="Content\images\movies\thewalkingdead.jpg" />
-    <Content Include="Content\images\movies\trainwreck.jpg" />
-    <Content Include="Content\images\movies\truedetective.jpg" />
-    <Content Include="Content\images\movies\unknown.jpg" />
-    <Content Include="Content\images\movies\Wallpaper 8.png" />
-    <Content Include="Content\images\raty\star-half-big.png" />
-    <Content Include="Content\images\raty\star-half.png" />
-    <Content Include="Content\images\raty\star-off-big.png" />
-    <Content Include="Content\images\raty\star-off.png" />
-    <Content Include="Content\images\raty\star-on-big.png" />
-    <Content Include="Content\images\raty\star-on.png" />
+    <Content Include="content\css\blank.gif" />
+    <Content Include="content\css\bootstrap-theme.css" />
+    <Content Include="content\css\bootstrap.css" />
+    <Content Include="content\css\fancybox_overlay.png" />
+    <Content Include="content\css\fancybox_sprite.png" />
+    <Content Include="content\css\font-awesome.css" />
+    <Content Include="content\css\jquery.fancybox.css" />
+    <Content Include="content\css\loading-bar.css" />
+    <Content Include="content\css\morris.css" />
+    <Content Include="content\css\site.css" />
+    <Content Include="content\css\toastr.css" />
+    <Content Include="content\fonts\fontawesome-webfont.svg" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="content\images\background.jpg" />
+    <Content Include="content\images\movies\antman.jpg" />
+    <Content Include="content\images\movies\background.jpg" />
+    <Content Include="content\images\movies\batmanvssuperman.jpg" />
+    <Content Include="content\images\movies\betafish.jpg" />
+    <Content Include="content\images\movies\edgeoftomorrow.jpg" />
+    <Content Include="content\images\movies\fantasticfour.jpg" />
+    <Content Include="content\images\movies\home.jpg" />
+    <Content Include="content\images\movies\insideout.jpg" />
+    <Content Include="content\images\movies\jurassicworld.jpg" />
+    <Content Include="content\images\movies\madmax.jpg" />
+    <Content Include="content\images\movies\minions.jpg" />
+    <Content Include="content\images\movies\southpaw.jpg" />
+    <Content Include="content\images\movies\spectre.jpg" />
+    <Content Include="content\images\movies\ted2.jpg" />
+    <Content Include="content\images\movies\thelongestride.jpg" />
+    <Content Include="content\images\movies\thewalkingdead.jpg" />
+    <Content Include="content\images\movies\trainwreck.jpg" />
+    <Content Include="content\images\movies\truedetective.jpg" />
+    <Content Include="content\images\movies\unknown.jpg" />
+    <Content Include="content\images\movies\Wallpaper 8.png" />
+    <Content Include="content\images\raty\star-half-big.png" />
+    <Content Include="content\images\raty\star-half.png" />
+    <Content Include="content\images\raty\star-off-big.png" />
+    <Content Include="content\images\raty\star-off.png" />
+    <Content Include="content\images\raty\star-on-big.png" />
+    <Content Include="content\images\raty\star-on.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="index.cshtml" />
-    <Content Include="Content\fonts\fontawesome-webfont.eot" />
-    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
-    <Content Include="Content\fonts\fontawesome-webfont.woff" />
-    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
-    <Content Include="Content\fonts\FontAwesome.otf" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="content\fonts\fontawesome-webfont.eot" />
+    <Content Include="content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="content\fonts\fontawesome-webfont.woff" />
+    <Content Include="content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="content\fonts\FontAwesome.otf" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -156,13 +184,26 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="scripts\spa\app.js" />
+    <Content Include="scripts\spa\layout\sideBar.directive.js" />
+    <Content Include="scripts\spa\layout\sideBar.html" />
+    <Content Include="scripts\spa\modules\common.core.js" />
+    <Content Include="scripts\spa\modules\common.ui.js" />
     <Content Include="scripts\vendor\angucomplete-alt.min.js" />
     <Content Include="scripts\vendor\angular-base64.min.js" />
+    <Content Include="scripts\vendor\angular-cookies.min.js" />
+    <Content Include="scripts\vendor\angular-file-upload.min.js" />
+    <Content Include="scripts\vendor\angular-resource.min.js" />
+    <Content Include="scripts\vendor\angular-route.min.js" />
     <Content Include="scripts\vendor\angular-validator.min.js" />
+    <Content Include="scripts\vendor\angular.js" />
     <Content Include="scripts\vendor\angular.min.js" />
     <Content Include="scripts\vendor\bootstrap.min.js" />
     <Content Include="scripts\vendor\jquery.min.js" />
+    <Content Include="scripts\vendor\jquery.raty.js" />
     <Content Include="scripts\vendor\loading-bar.min.js" />
+    <Content Include="scripts\vendor\toastr.min.js" />
+    <Content Include="scripts\vendor\ui-bootstrap-tpls.min.js" />
     <Content Include="scripts\vendor\ui-bootstrap.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -187,7 +228,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>58952</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49801/</IISUrl>
+          <IISUrl>http://localhost:49801</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
