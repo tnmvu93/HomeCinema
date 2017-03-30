@@ -185,10 +185,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="scripts\spa\app.js" />
+    <Content Include="scripts\spa\home\rootCtrl.js" />
     <Content Include="scripts\spa\layout\sideBar.directive.js" />
     <Content Include="scripts\spa\layout\sideBar.html" />
+    <Content Include="scripts\spa\layout\topBar.directive.js" />
+    <Content Include="scripts\spa\layout\topBar.html" />
     <Content Include="scripts\spa\modules\common.core.js" />
     <Content Include="scripts\spa\modules\common.ui.js" />
+    <Content Include="scripts\spa\services\apiService.js" />
+    <Content Include="scripts\spa\services\notificationService.js" />
     <Content Include="scripts\vendor\angucomplete-alt.min.js" />
     <Content Include="scripts\vendor\angular-base64.min.js" />
     <Content Include="scripts\vendor\angular-cookies.min.js" />
@@ -205,14 +210,13 @@
     <Content Include="scripts\vendor\toastr.min.js" />
     <Content Include="scripts\vendor\ui-bootstrap-tpls.min.js" />
     <Content Include="scripts\vendor\ui-bootstrap.min.js" />
+    <Content Include="scripts\_references.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="scripts\spa\home\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
