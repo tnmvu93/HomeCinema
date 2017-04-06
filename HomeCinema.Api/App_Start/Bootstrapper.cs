@@ -7,6 +7,7 @@ namespace HomeCinema.Api.App_Start
         public static void Run()
         {
             AutofacWebApiConfig.Initialize(GlobalConfiguration.Configuration);
+            AutoMapperConfiguration.Configure();
         }
     }
 }
