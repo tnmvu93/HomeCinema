@@ -1,6 +1,6 @@
 ﻿using HomeCinema.Data;
-using HomeCinema.Data.BaseRepository;
 using HomeCinema.Data.Entities;
+using HomeCinema.Services.IRepository;
 using System;
 using System.Data.Entity.Infrastructure;
 using System.Net;
@@ -12,9 +12,9 @@ namespace HomeCinema.Api.Infrastructure.Core
     public class BaseApiController : ApiController
     {
         protected readonly HomeCinemaContext _dbContext;
-        protected readonly IBaseRepository<Error> _errorRepository;
+        protected readonly IErrorRepository _errorRepository;
 
-        public BaseApiController(HomeCinemaContext dbContext, IBaseRepository<Error> errorRepository)
+        public BaseApiController(HomeCinemaContext dbContext, IErrorRepository errorRepository)
         {
             this._dbContext = dbContext;
             this._errorRepository = errorRepository;

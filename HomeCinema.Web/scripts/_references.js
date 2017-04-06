@@ -1,22 +1,4 @@
-﻿Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @tnmvu93
-Sign out
-Watch 38
-Star 188
-Fork 199 chsakell/spa-webapi-angularjs
-Code  Issues 1  Pull requests 2  Projects 0  Wiki  Pulse  Graphs
-Branch: master Find file Copy pathspa-webapi-angularjs/HomeCinema.Web/Scripts/_references.js
-9f9ea93  on Aug 22, 2015
-@chsakell chsakell initial commit
-1 contributor
-RawBlameHistory     
-47 lines (46 sloc)  2.33 KB
-/// <autosync enabled="true" />
+﻿/// <autosync enabled="true" />
 /// <reference path="vendors/angular.js" />
 /// <reference path="vendors/underscore.js" />
 /// <reference path="vendors/toastr.js" />

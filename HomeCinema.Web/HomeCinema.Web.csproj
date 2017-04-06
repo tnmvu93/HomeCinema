@@ -185,6 +185,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="scripts\spa\app.js" />
+    <Content Include="scripts\spa\directives\availableMovie.directive.js" />
+    <Content Include="scripts\spa\directives\availableMovie.html" />
+    <Content Include="scripts\spa\directives\componentRating.directive.js" />
+    <Content Include="scripts\spa\home\index.html" />
+    <Content Include="scripts\spa\home\indexCtrl.js" />
     <Content Include="scripts\spa\home\rootCtrl.js" />
     <Content Include="scripts\spa\layout\sideBar.directive.js" />
     <Content Include="scripts\spa\layout\sideBar.html" />
