@@ -5,6 +5,7 @@ using HomeCinema.Data;
 using HomeCinema.Data.BaseRepository;
 using HomeCinema.Service;
 using HomeCinema.Service.Abstract;
+using System;
 using System.Data.Entity;
 using System.Reflection;
 using System.Web.Http;
@@ -29,9 +30,12 @@ namespace HomeCinema.Api.App_Start
         {
             builder.RegisterApiControllers(Assembly.GetExecutingAssembly());
 
-            builder.RegisterType<HomeCinemaContext>().As<DbContext>().InstancePerRequest();
+            builder.RegisterType<HomeCinemaContext>().AsSelf().InstancePerRequest();
 
             builder.RegisterGeneric(typeof(BaseRepository<>)).As(typeof(IBaseRepository<>)).InstancePerRequest();
+            builder.RegisterAssemblyTypes(AppDomain.CurrentDomain.GetAssemblies())
+                .AsClosedTypesOf(typeof(IBaseRepository<>))
+                .AsImplementedInterfaces();
 
             builder.RegisterType<EncryptionService>().As<IEncryptionService>().InstancePerRequest();
             builder.RegisterType<MembershipService>().As<IMembershipService>().InstancePerRequest();
