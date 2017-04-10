@@ -11,10 +11,12 @@
             post: post
         };
 
+        var apiAddress = 'http://localhost:8000/';
+
         return service;
 
         function get(url, config, success, failure) {
-            return $http.get(url, config)
+            return $http.get(apiAddress + url, config)
                         .then(function (result) {
                             success(result);
                         }, function (error) {
@@ -29,7 +31,7 @@
         }
 
         function post(url, config, success, failure) {
-            return $http.post(url, config)
+            return $http.post(apiAddress + url, config)
                         .then(function (result) {
                             success(result);
                         }, function (error) {

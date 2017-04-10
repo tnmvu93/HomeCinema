@@ -6,7 +6,6 @@ using HomeCinema.Data.BaseRepository;
 using HomeCinema.Service;
 using HomeCinema.Service.Abstract;
 using System;
-using System.Data.Entity;
 using System.Reflection;
 using System.Web.Http;
 
@@ -23,6 +22,7 @@ namespace HomeCinema.Api.App_Start
 
         public static void Initialize(HttpConfiguration config, IContainer container)
         {
+            // Set the dependency resolver to be Autofac.
             config.DependencyResolver = new AutofacWebApiDependencyResolver(container);
         }
 
