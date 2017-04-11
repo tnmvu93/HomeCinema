@@ -1,7 +1,9 @@
-﻿'use strict';
+﻿(function () {
+    'use strict';
 
-(function (app) {
-    app.directive('topBar', topBar);
+    var commonUI = angular.module('common.ui')
+
+    commonUI.directive('topBar', topBar);
 
     function topBar() {
         return {
@@ -10,4 +12,4 @@
             templateUrl: '/scripts/spa/layout/topBar.html'
         };
     }
-})(angular.module('common.ui'));
+})();

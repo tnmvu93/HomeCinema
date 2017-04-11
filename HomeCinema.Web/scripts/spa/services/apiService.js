@@ -1,7 +1,9 @@
-﻿(function (app) {
+﻿(function () {
     'use strict';
 
-    app.factory('apiService', apiService);
+    var commonCore = angular.module('common.core')
+
+    commonCore.factory('apiService', apiService);
 
     apiService.$inject = ['$http', '$location', '$rootScope', 'notificationService'];
 
@@ -45,4 +47,4 @@
                         });
         }
     }
-})(angular.module('common.core'));
+})();

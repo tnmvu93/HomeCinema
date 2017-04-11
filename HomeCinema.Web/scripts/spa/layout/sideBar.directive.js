@@ -1,7 +1,9 @@
-﻿'use strict';
+﻿(function () {
+    'use strict';
 
-(function (app) {
-    app.directive('sideBar', sideBar);
+    var commonUI = angular.module('common.ui')
+
+    commonUI.directive('sideBar', sideBar);
 
     function sideBar() {
         return {
@@ -11,4 +13,4 @@
         };
     }
 
-})(angular.module('common.ui'));
+})();

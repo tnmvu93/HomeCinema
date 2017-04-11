@@ -1,6 +1,6 @@
-﻿'use strict';
+﻿(function () {
+    'use strict';
 
-(function () {
     angular.module('homeCinema', ['common.core', 'common.ui'])
         .config(config);
 

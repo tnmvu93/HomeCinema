@@ -1,7 +1,9 @@
-﻿(function (app) {
+﻿(function () {
     'use strict';
 
-    app.factory('notificationService', notificationService);
+    var commonCore = angular.module('common.core');
+
+    commonCore.factory('notificationService', notificationService);
 
     function notificationService() {
 
@@ -46,4 +48,4 @@
             toastr.info(message);
         }
     }
-})(angular.module('common.core'));
+})();

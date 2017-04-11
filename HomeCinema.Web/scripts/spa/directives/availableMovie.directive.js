@@ -1,8 +1,10 @@
 ﻿
-(function (app) {
+(function () {
     'use strict';
 
-    app.directive('availableMovie', availableMovie);
+    var commonUI = angular.module('common.ui');
+
+    commonUI.directive('availableMovie', availableMovie);
 
     function availableMovie() {
         return {
@@ -27,4 +29,4 @@
             }
         };
     }
-})(angular.module('common.ui'));
+})();

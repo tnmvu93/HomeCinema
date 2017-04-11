@@ -1,7 +1,9 @@
-﻿(function (app) {
+﻿(function () {
     'use strict';
 
-    app.directive('componentRating', componentRating);
+    var commonUI = angular.module('common.ui');
+
+    commonUI.directive('componentRating', componentRating);
 
     function componentRating() {
         return {
@@ -24,4 +26,4 @@
             }
         }
     }
-})(angular.module('common.ui'));
+})();

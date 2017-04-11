@@ -1,6 +1,6 @@
-﻿'use strict';
+﻿(function () {
+    'use strict';
 
-(function () {
     angular.module('common.ui', ['ui.bootstrap', 'chieffancypants.loadingBar']);
 
 })();

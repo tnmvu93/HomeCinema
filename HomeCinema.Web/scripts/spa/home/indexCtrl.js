@@ -1,5 +1,7 @@
-﻿(function (app) {
+﻿(function () {
     'use strict';
+
+    var app = angular.module('homeCinema');
 
     app.controller('indexCtrl', indexCtrl);
 
@@ -53,4 +55,4 @@
 
         loadData();
     }
-})(angular.module('homeCinema'));
+})();

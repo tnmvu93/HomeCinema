@@ -1,5 +1,7 @@
-﻿(function (app) {
+﻿(function () {
     'use strict';
+
+    var app = angular.module('homeCinema');
 
     app.controller('rootCtrl', rootCtrl);
 
@@ -17,4 +19,4 @@
 
         }
     }
-})(angular.module('homeCinema'));
+})();
